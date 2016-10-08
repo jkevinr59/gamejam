@@ -17,12 +17,18 @@ public class Player_Control : MonoBehaviour {
         if(Input.GetKey(KeyCode.W))
             {
                 Vector3 move = new Vector3(0f,7f);
-                this.transform.position += move * speed * Time.deltaTime;
+                if (this.transform.position.y < 3.5f)
+                {
+                    this.transform.position += move * speed * Time.deltaTime;
+                }
             }
         if (Input.GetKey(KeyCode.S))
         {
             Vector3 move = new Vector3(0f, -7f);
-            this.transform.position += move * speed * Time.deltaTime;
+            if (this.transform.position.y > -3.5f)
+            {
+                this.transform.position += move * speed * Time.deltaTime;
+            }
         }
         if (Input.GetKeyDown(KeyCode.D) && Time.time>=timestamp)
         {
