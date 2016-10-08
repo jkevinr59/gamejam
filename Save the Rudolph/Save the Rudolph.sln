@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{A37463BB-DF0C-6634-E728-01430DF09233}") = "Save the Rudolph", "Assembly-CSharp-firstpass.csproj", "{A2ADB7FC-7E06-1B9F-0F1C-015152F74DEE}"
+EndProject
+Project("{A37463BB-DF0C-6634-E728-01430DF09233}") = "Save the Rudolph", "Assembly-CSharp.csproj", "{AE067FFD-53D5-41A4-D133-DCC6457A5862}"
+EndProject
+Project("{A37463BB-DF0C-6634-E728-01430DF09233}") = "Save the Rudolph", "Assembly-CSharp-Editor.csproj", "{DEDE6C4C-36BA-6311-CADD-64021BE2213F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2ADB7FC-7E06-1B9F-0F1C-015152F74DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2ADB7FC-7E06-1B9F-0F1C-015152F74DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2ADB7FC-7E06-1B9F-0F1C-015152F74DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2ADB7FC-7E06-1B9F-0F1C-015152F74DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE067FFD-53D5-41A4-D133-DCC6457A5862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE067FFD-53D5-41A4-D133-DCC6457A5862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE067FFD-53D5-41A4-D133-DCC6457A5862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE067FFD-53D5-41A4-D133-DCC6457A5862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEDE6C4C-36BA-6311-CADD-64021BE2213F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEDE6C4C-36BA-6311-CADD-64021BE2213F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEDE6C4C-36BA-6311-CADD-64021BE2213F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEDE6C4C-36BA-6311-CADD-64021BE2213F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
